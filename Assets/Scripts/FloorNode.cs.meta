@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4ec2143f60e9283408161f4c647d30ad
+timeCreated: 1551884570
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
+      type: 2}
+  - selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+      type: 2}
+  - turretToBuild: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1902667523717976}
+  m_IsPrefabParent: 1
+--- !u!1 &1902667523717976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4794888113262786}
+  - component: {fileID: 114247640257619970}
+  - component: {fileID: 114386775150349076}
+  - component: {fileID: 114497891824016676}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4794888113262786
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902667523717976}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -4.5, y: -6, z: 25}
+  m_LocalScale: {x: 0.5, y: 0.10000006, z: 0.50000024}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114247640257619970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902667523717976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e054079e82ab3094e92ce3948b78515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 4215146300559416, guid: 4c4e9a43f823ee14a9b622aeb88985d3,
+    type: 2}
+  enemyPrefabFast: {fileID: 4715706308794482, guid: fd2ed3c9f2ebf874cb1de719f7b2c533,
+    type: 2}
+  spawnPoint: {fileID: 0}
+  timeBetweenWaves: 5
+  waveNumber: 1
+  normalEmemies: 1
+  fastEnemies: 0
+--- !u!114 &114386775150349076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902667523717976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c2d739a537d1ec469b06a532c309b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standardTower: {fileID: 1489044531197298, guid: c57331577fe8f6547b8251c46ecab9df,
+    type: 2}
+  selectedAreas: []
+  minigunTower: {fileID: 1742966372039068, guid: d652413ffe2934b4ea8387f576dd2a75,
+    type: 2}
+  sniperTower: {fileID: 1661121570625910, guid: 6567411e337db1c4e8e7ced0f56e3fb3,
+    type: 2}
+  turretToBuild: {fileID: 0}
+--- !u!114 &114497891824016676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902667523717976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828bbbfa247f4294da35a809d3abb66b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gold: 100
+  wood: 30
+  countdown: 1
+  goldPerSecond: 1
+  woodPerSecond: 1
+  goldTickRate: 1
+  woodClickRate: 1
+  goldText: {fileID: 0}
+  woodText: {fileID: 0}
