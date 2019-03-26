@@ -9,20 +9,24 @@ public class FloorNode : MonoBehaviour {
 
     public Color startColor;
     private Renderer rend;
-    public GameObject turret;
+    public GameObject currentTurret;
     public bool selectionStatus;
     private GameObject selectedArea;
 
-    public float upgradeLevel = 0f;
+    public float upgradeLevel = 1f;
 
     public GameObject selectedAreaObjectFail;
     public GameObject selectedAreaObject;
+
+    private Turret turretData;
 
     public float turretRange;
     public GameObject turretToBuild;
     private Turret turretSelected;
     BuildManager buildManager;
     public string selectTag = "Selection";
+
+    public float upgradecost = 0f;
 
     private void Start()
     {
@@ -33,12 +37,38 @@ public class FloorNode : MonoBehaviour {
 
     private void Update()
     {
+        if (this.currentTurret != null)
+        {
+            turretData = this.currentTurret.GetComponent<Turret>();
+            upgradecost = Mathf.Round(turretData.goldCost / 2) * upgradeLevel;
+            if (upgradeLevel == 2)
+            {
+                this.startColor = Color.green;
+            }
+            else if (upgradeLevel == 3)
+            {
+                this.startColor = Color.blue;
+            }
+            else if (upgradeLevel == 4)
+            {
+                this.startColor = Color.magenta;
+            }
+            else if (upgradeLevel == 5)
+            {
+                this.startColor = Color.yellow;
+            }
+            else if (upgradeLevel == 6)
+            {
+                this.startColor = Color.red;
+            }
+            rend.material.color = startColor;
+
+        }
         if (BuildManager.instance.GetTurretToBuild() != null)
         {
             turretToBuild = BuildManager.instance.GetTurretToBuild();
             turretSelected = turretToBuild.GetComponent<Turret>();
         }
-
         BuildManager.instance.selectedAreas = GameObject.FindGameObjectsWithTag("Selection");
 
 
@@ -46,13 +76,12 @@ public class FloorNode : MonoBehaviour {
 
     private void OnMouseDown()
     {
-
+        
         if (!EventSystem.current.IsPointerOverGameObject())
         {
-            if (turret != null)
+            if (currentTurret != null)
             {
                 UpgradeTurret();
-                upgradeLevel++;
             }
             else
             {
@@ -72,7 +101,7 @@ public class FloorNode : MonoBehaviour {
                 {
                     ResourceManager.instance.gold = ResourceManager.instance.gold - turretSelected.goldCost;
                     ResourceManager.instance.wood = ResourceManager.instance.wood - turretSelected.woodCost;
-                    this.turret = (GameObject)Instantiate(turretToBuild, PositionNew, Quaternion.Euler(0, 0, 0));
+                    this.currentTurret = (GameObject)Instantiate(turretToBuild, PositionNew, Quaternion.Euler(0, 0, 0));
                 }
             }
         }
@@ -80,27 +109,70 @@ public class FloorNode : MonoBehaviour {
     public void UpgradeTurret()
     {
 
-
-        if (upgradeLevel == 0)
+        if (upgradeLevel != 6)
         {
 
-        }
-        else if (upgradeLevel == 1)
-        {
-            this.startColor = Color.green;
-        }
-        else if (upgradeLevel == 2)
-        {
-            this.startColor = Color.blue;
-        }
-        else if (upgradeLevel == 3)
-        {
-            this.startColor = Color.magenta;
-        }
-        else if (upgradeLevel == 4)
-        {
-            this.startColor = Color.yellow;
+            if (upgradeLevel == 1)
+            {
+                if (ResourceManager.instance.gold >= upgradecost)
+                {
+                    ResourceManager.instance.gold = ResourceManager.instance.gold - upgradecost;
+                    turretData.damage = turretData.damage + 0.5f;
+                    turretData.range = turretData.range + 0.5f;
+                    turretData.fireRate = turretData.fireRate + 0.3f;
+                    upgradeLevel++;
 
+                }
+            }
+            else if (upgradeLevel == 2)
+            {
+                if (ResourceManager.instance.gold >= upgradecost)
+                {
+                    ResourceManager.instance.gold = ResourceManager.instance.gold - upgradecost;
+                    turretData.damage = turretData.damage + 0.5f;
+                    turretData.range = turretData.range + 5f;
+                    turretData.fireRate = turretData.fireRate + 0.3f;
+                    upgradeLevel++;
+
+                }
+
+            }
+            else if (upgradeLevel == 3)
+            {
+                if (ResourceManager.instance.gold >= upgradecost)
+                {
+                    ResourceManager.instance.gold = ResourceManager.instance.gold - upgradecost;
+                    turretData.damage = turretData.damage + 0.5f;
+                    turretData.range = turretData.range + 5f;
+                    turretData.fireRate = turretData.fireRate + 0.3f;
+                    upgradeLevel++;
+
+                }
+            }
+            else if (upgradeLevel == 4)
+            {
+                if (ResourceManager.instance.gold >= upgradecost)
+                {
+                    ResourceManager.instance.gold = ResourceManager.instance.gold - upgradecost;
+                    turretData.damage = turretData.damage + 0.5f;
+                    turretData.range = turretData.range + 5f;
+                    turretData.fireRate = turretData.fireRate + 0.3f;
+                    upgradeLevel++;
+
+                }
+            }
+            else if (upgradeLevel == 5)
+            {
+                if (ResourceManager.instance.gold >= upgradecost)
+                {
+                    ResourceManager.instance.gold = ResourceManager.instance.gold - upgradecost;
+                    turretData.damage = turretData.damage + 0.5f;
+                    turretData.range = turretData.range + 5f;
+                    turretData.fireRate = turretData.fireRate + 0.3f;
+                    upgradeLevel++;
+
+                }
+            }
         }
     }
     void OnMouseOver()
@@ -134,7 +206,6 @@ public class FloorNode : MonoBehaviour {
 
         DeleteAreas();
         
-        rend.material.color = startColor;
         selectionStatus = false;
     }
 
@@ -161,7 +232,7 @@ public class FloorNode : MonoBehaviour {
              }
             return;
         }
-        else if (ResourceManager.instance.gold < turretSelected.goldCost || ResourceManager.instance.wood < turretSelected.woodCost || this.turret != null)
+        else if (ResourceManager.instance.gold < turretSelected.goldCost || ResourceManager.instance.wood < turretSelected.woodCost || this.currentTurret != null)
         {
              if (selectedArea == null || selectionStatus == true)
              {

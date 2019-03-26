@@ -158,9 +158,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -168,6 +168,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &10882241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -268,9 +269,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -278,6 +279,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &28784777
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -378,9 +380,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -388,6 +390,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &36597603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -488,9 +491,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -498,6 +501,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &62752163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -598,9 +602,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -608,6 +612,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &79256662
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -708,9 +713,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -718,6 +723,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &86227308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -879,9 +885,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -889,6 +895,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &107385144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1054,9 +1061,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -1064,6 +1071,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &137413711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1164,9 +1172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -1174,6 +1182,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &149244200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1457,9 +1466,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -1467,6 +1476,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &184550422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1567,9 +1577,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -1577,6 +1587,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &210451856
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1677,9 +1688,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -1687,6 +1698,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &231838147
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1787,9 +1799,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -1797,6 +1809,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &237707992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1897,9 +1910,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -1907,6 +1920,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &248284869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2088,9 +2102,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -2098,6 +2112,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &297206376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2198,9 +2213,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -2208,6 +2223,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &304249172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2295,8 +2311,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1530705863}
-  - {fileID: 1537188880}
-  - {fileID: 543354106}
+  - {fileID: 1902790166}
+  - {fileID: 714947578}
   - {fileID: 747409055}
   - {fileID: 2004499821}
   - {fileID: 410790404}
@@ -2426,9 +2442,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -2436,6 +2452,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &375315110
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2566,9 +2583,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -2576,6 +2593,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &395468616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2676,9 +2694,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -2686,6 +2704,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &406531207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2882,9 +2901,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -2892,6 +2911,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &428102171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2992,9 +3012,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -3002,6 +3022,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &430870389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3102,9 +3123,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -3112,6 +3133,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &451388658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3212,9 +3234,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -3222,6 +3244,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &487115325
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3413,9 +3436,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -3423,6 +3446,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &520932850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3617,9 +3641,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -3627,6 +3651,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &540867022
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3682,78 +3707,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 540867019}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &543354105
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1093401427595126, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 543354106}
-  - component: {fileID: 543354108}
-  - component: {fileID: 543354107}
-  m_Layer: 5
-  m_Name: WoodImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &543354106
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224915239569970746, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 543354105}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 319564354}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &543354107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114019503104177142, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 543354105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 81a75e527d9d8e944ab7b8de06e2d248, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &543354108
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222757898940750428, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 543354105}
 --- !u!1 &570301235
 GameObject:
   m_ObjectHideFlags: 0
@@ -3829,9 +3782,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -3839,6 +3792,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &578744795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4033,9 +3987,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -4043,6 +3997,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &585542999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4143,9 +4098,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -4153,6 +4108,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &618524623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4253,9 +4209,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -4263,6 +4219,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &634410011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4393,9 +4350,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -4403,6 +4360,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &647799734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4545,9 +4503,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -4555,6 +4513,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &655584785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4843,9 +4802,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -4853,6 +4812,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &667422597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4953,9 +4913,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -4963,6 +4923,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &683876572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5018,6 +4979,78 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 683876569}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
+--- !u!1 &714947577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1247227948027752, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 714947578}
+  - component: {fileID: 714947580}
+  - component: {fileID: 714947579}
+  m_Layer: 5
+  m_Name: WoodImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &714947578
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224930967093600422, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 714947577}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 319564354}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &714947579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114058146553746888, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 714947577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 81a75e527d9d8e944ab7b8de06e2d248, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &714947580
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 222822884392629544, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 714947577}
 --- !u!1 &728900790
 GameObject:
   m_ObjectHideFlags: 0
@@ -5063,9 +5096,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -5073,6 +5106,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &728900793
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5267,9 +5301,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -5277,6 +5311,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &741523705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5471,9 +5506,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -5481,6 +5516,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &747683260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5581,9 +5617,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -5591,6 +5627,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &750382462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5691,9 +5728,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -5701,6 +5738,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &778823373
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5801,9 +5839,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -5811,6 +5849,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &794287512
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5911,9 +5950,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -5921,6 +5960,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &799333333
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6021,9 +6061,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -6031,6 +6071,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &808643094
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6131,9 +6172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -6141,6 +6182,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &812281039
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6241,9 +6283,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -6251,6 +6293,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &822309711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6435,9 +6478,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -6445,6 +6488,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &870491335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6545,9 +6589,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -6555,6 +6599,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &893801394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6655,9 +6700,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -6665,6 +6710,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &898258863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6765,9 +6811,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -6775,6 +6821,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &963282668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7033,9 +7080,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -7043,6 +7090,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &968282276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7143,9 +7191,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -7153,6 +7201,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &985915852
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7253,9 +7302,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -7263,6 +7312,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &995684280
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7363,9 +7413,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -7373,6 +7423,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1004366988
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7473,9 +7524,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -7483,6 +7534,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1011285149
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7577,8 +7629,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -926.9, y: -229}
-  m_SizeDelta: {x: 74.2, y: -475.4}
+  m_AnchoredPosition: {x: -928.8, y: -266.63}
+  m_SizeDelta: {x: 70.2, y: -550.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012238033
 MonoBehaviour:
@@ -7737,9 +7789,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -7747,6 +7799,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1014591933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7847,9 +7900,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -7857,6 +7910,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1015866813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7961,9 +8015,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -7971,6 +8025,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1083706339
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8071,9 +8126,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -8081,6 +8136,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1086843275
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8181,9 +8237,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -8191,6 +8247,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1092169725
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8291,9 +8348,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -8301,6 +8358,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1098854012
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8584,9 +8642,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -8594,6 +8652,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1112822109
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8694,9 +8753,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -8704,6 +8763,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1123910182
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8804,9 +8864,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -8814,6 +8874,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1167839978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9000,9 +9061,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -9010,6 +9071,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1197118187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9110,9 +9172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -9120,6 +9182,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1235761746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9220,9 +9283,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -9230,6 +9293,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1257770812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9390,9 +9454,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -9400,6 +9464,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1328740096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9498,7 +9563,7 @@ Prefab:
         type: 2}
       propertyPath: goldText
       value: 
-      objectReference: {fileID: 1537188882}
+      objectReference: {fileID: 1902790168}
     - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
         type: 2}
       propertyPath: woodText
@@ -9592,9 +9657,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -9602,6 +9667,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1331925185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9702,9 +9768,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -9712,6 +9778,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1360611422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9812,9 +9879,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -9822,6 +9889,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1372650854
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9922,9 +9990,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -9932,6 +10000,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1375907441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10032,9 +10101,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -10042,6 +10111,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1381557306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10142,9 +10212,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -10152,6 +10222,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1399032429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10570,9 +10641,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -10580,6 +10651,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1500065106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10680,9 +10752,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -10690,6 +10762,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1502152959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10790,9 +10863,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -10800,6 +10873,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1512933170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10927,100 +11001,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1530705862}
---- !u!1 &1537188879
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1276634911837464, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1537188880}
-  - component: {fileID: 1537188883}
-  - component: {fileID: 1537188882}
-  - component: {fileID: 1537188881}
-  m_Layer: 5
-  m_Name: Gold
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1537188880
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224656096605463996, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1537188879}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 319564354}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 117.5, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1537188881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114546034435078676, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1537188879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 1, g: 0.354, b: 0, a: 0.5}
-  m_EffectDistance: {x: 0, y: -1}
-  m_UseGraphicAlpha: 1
---- !u!114 &1537188882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114971395869314308, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1537188879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Money
---- !u!222 &1537188883
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222848300707905566, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1537188879}
 --- !u!1 &1543079179
 GameObject:
   m_ObjectHideFlags: 0
@@ -11066,9 +11046,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -11076,6 +11056,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1543079182
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11176,9 +11157,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -11186,6 +11167,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1543755397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11443,9 +11425,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -11453,6 +11435,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1588037480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11596,9 +11579,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -11606,6 +11589,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1615781156
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11757,9 +11741,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -11767,6 +11751,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1622356279
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11867,9 +11852,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -11877,6 +11862,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1622696904
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11977,9 +11963,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -11987,6 +11973,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1630893405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12087,9 +12074,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -12097,6 +12084,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1635122298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12197,9 +12185,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -12207,6 +12195,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1638924849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12487,9 +12476,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -12497,6 +12486,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1661358365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12597,9 +12587,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -12607,6 +12597,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1671294592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12887,9 +12878,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -12897,6 +12888,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1700105717
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13091,9 +13083,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -13101,6 +13093,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1715958612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13201,9 +13194,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -13211,6 +13204,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1736754056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13311,9 +13305,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -13321,6 +13315,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1739132185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13537,9 +13532,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -13547,6 +13542,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1751943606
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13782,9 +13778,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -13792,6 +13788,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1779533273
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13892,9 +13889,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -13902,6 +13899,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1818382790
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14497,9 +14495,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -14507,6 +14505,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1876109879
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14607,9 +14606,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -14617,6 +14616,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1883423070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14717,9 +14717,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -14727,6 +14727,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1886480873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14827,9 +14828,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -14837,6 +14838,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1890934495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15125,9 +15127,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -15135,6 +15137,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1894408043
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15190,6 +15193,100 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1894408040}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
+--- !u!1 &1902790165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1239433601125636, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1902790166}
+  - component: {fileID: 1902790169}
+  - component: {fileID: 1902790168}
+  - component: {fileID: 1902790167}
+  m_Layer: 5
+  m_Name: GoldText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1902790166
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224806951742008520, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1902790165}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 319564354}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 117.5, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1902790167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114746219231588614, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1902790165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.3602941, g: 0.15321507, b: 0.039738316, a: 0.5}
+  m_EffectDistance: {x: 0, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1902790168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114011815578483220, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1902790165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.80689657, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Gold
+--- !u!222 &1902790169
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 222751226311773356, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1902790165}
 --- !u!1 &1919945758
 GameObject:
   m_ObjectHideFlags: 0
@@ -15235,9 +15332,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -15245,6 +15342,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1919945761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15533,9 +15631,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -15543,6 +15641,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1944321387
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15643,9 +15742,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -15653,6 +15752,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &1963873903
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16068,9 +16168,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -16078,6 +16178,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &2024933910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16305,9 +16406,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -16315,6 +16416,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &2047446074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16419,9 +16521,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -16429,6 +16531,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &2093594617
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16753,9 +16856,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -16763,6 +16866,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &2136978186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16863,9 +16967,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOffset: {x: -6, y: 23, z: -6}
   startColor: {r: 1, g: 1, b: 1, a: 0}
-  turret: {fileID: 0}
+  currentTurret: {fileID: 0}
   selectionStatus: 0
-  upgradeLevel: 0
+  upgradeLevel: 1
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
@@ -16873,6 +16977,7 @@ MonoBehaviour:
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
+  upgradecost: 0
 --- !u!65 &2141534815
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -66,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1687414005318274}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.74, y: 2.01, z: -69.61}
+  m_LocalPosition: {x: -7.913063, y: 2.11, z: 102.78166}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4677318678346936}
@@ -81,7 +81,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1587824193827720}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.08, y: -0.02, z: -8.41}
+  m_LocalPosition: {x: -0.07999992, y: 2.6300137, z: -8.410004}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 4119751680911424}
@@ -94,8 +94,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1853817949649940}
   m_LocalRotation: {x: -0.50000024, y: 0.4999997, z: 0.49999976, w: 0.5000004}
-  m_LocalPosition: {x: 14.650002, y: -30.76, z: -11.419998}
-  m_LocalScale: {x: 0.7000002, y: 0.7000002, z: 0.7000002}
+  m_LocalPosition: {x: 14.650002, y: -28.109987, z: -11.419998}
+  m_LocalScale: {x: 0.7000007, y: 0.7000007, z: 0.7000007}
   m_Children: []
   m_Father: {fileID: 4119751680911424}
   m_RootOrder: 0
@@ -156,7 +156,7 @@ MonoBehaviour:
   damage: 10
   range: 50
   fireRate: 0.3
-  goldCost: 10
+  goldCost: 50
   woodCost: 5
   enemyTag: Enemy
   partToRotate: {fileID: 4119751680911424}

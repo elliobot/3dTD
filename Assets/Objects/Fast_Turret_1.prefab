@@ -185,7 +185,7 @@ MonoBehaviour:
   damage: 1
   range: 20
   fireRate: 3
-  goldCost: 10
+  goldCost: 30
   woodCost: 5
   enemyTag: Enemy
   partToRotate: {fileID: 4326843104644714}
