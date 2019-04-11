@@ -81,7 +81,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1840600101506496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -32.71098, y: 1.97, z: 102.83}
+  m_LocalPosition: {x: -36.82, y: 3.0163422e-17, z: -5.6399536}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4418167069650082}
@@ -97,7 +97,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1820542453610668}
   m_LocalRotation: {x: -0.49999976, y: 0.5000003, z: 0.50000024, w: 0.49999973}
-  m_LocalPosition: {x: 15.82, y: -27.969978, z: -11.465279}
+  m_LocalPosition: {x: 14.785168, y: -27.969978, z: -11.465279}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children: []
   m_Father: {fileID: 4326843104644714}
@@ -110,8 +110,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1373253520730164}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 2.619999, y: 2.6200202, z: -5.550682}
-  m_LocalScale: {x: 2.5000062, y: 2.5000057, z: 0}
+  m_LocalPosition: {x: 1.5851669, y: 2.6200202, z: -5.550682}
+  m_LocalScale: {x: 2.500008, y: 2.5000076, z: 0}
   m_Children: []
   m_Father: {fileID: 4326843104644714}
   m_RootOrder: 1
@@ -123,8 +123,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1777277544156622}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.3370018, y: 2.8330204, z: -5.780678}
-  m_LocalScale: {x: 2.500009, y: 2.5000079, z: 0}
+  m_LocalPosition: {x: -1.3718338, y: 2.8330204, z: -5.780678}
+  m_LocalScale: {x: 2.500011, y: 2.5000098, z: 0}
   m_Children: []
   m_Father: {fileID: 4326843104644714}
   m_RootOrder: 2
@@ -182,11 +182,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstEnemy: {fileID: 0}
-  damage: 1
+  damage: 3
   range: 20
   fireRate: 3
-  goldCost: 30
-  woodCost: 5
+  goldCost: 300
+  rangeUpgrade: 1.1
+  damageUpgrade: 1.25
+  attackspeedUpgrade: 1.4
   enemyTag: Enemy
   partToRotate: {fileID: 4326843104644714}
   bulletPrefab: {fileID: 1152241474709798, guid: 2db14c0fc47d2834f8700e1b4dee240d,

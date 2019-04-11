@@ -30,8 +30,4 @@ public class Shop : MonoBehaviour {
     }
 
 
-    public void ChopWood()
-    {
-       ResourceManager.instance.wood += ResourceManager.instance.woodClickRate;
-    }
 }

@@ -6,9 +6,7 @@ using UnityEngine.UI;
 public class Upgrader : MonoBehaviour {
 
     public float upgradeCost = 0f;
-    public float woodIncrease = 0f;
     public float goldIncrease = 0f;
-    public float woodclickincrease = 0f;
 
     public string upgradeDescription = "Placeholder";
 
@@ -27,7 +25,7 @@ public class Upgrader : MonoBehaviour {
         {
             Upgrades upgradeMenu = Upgrades.instance;
 
-            upgradeMenu.PurchaseUpgrade(upgradeCost, woodIncrease, goldIncrease, woodclickincrease);
+            upgradeMenu.PurchaseUpgrade(upgradeCost, goldIncrease);
             upgradeCost = upgradeCost * 2;
 
         }

@@ -153,11 +153,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstEnemy: {fileID: 0}
-  damage: 10
+  damage: 20
   range: 50
-  fireRate: 0.3
-  goldCost: 50
-  woodCost: 5
+  fireRate: 0.5
+  goldCost: 500
+  rangeUpgrade: 1.2
+  damageUpgrade: 1.4
+  attackspeedUpgrade: 1.2
   enemyTag: Enemy
   partToRotate: {fileID: 4119751680911424}
   bulletPrefab: {fileID: 1152241474709798, guid: 2db14c0fc47d2834f8700e1b4dee240d,

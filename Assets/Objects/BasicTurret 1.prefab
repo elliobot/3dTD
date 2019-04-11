@@ -185,8 +185,10 @@ MonoBehaviour:
   damage: 3
   range: 30
   fireRate: 1
-  goldCost: 10
-  woodCost: 5
+  goldCost: 100
+  rangeUpgrade: 1.1
+  damageUpgrade: 1.4
+  attackspeedUpgrade: 1.15
   enemyTag: Enemy
   partToRotate: {fileID: 4468776097699538}
   bulletPrefab: {fileID: 1152241474709798, guid: 2db14c0fc47d2834f8700e1b4dee240d,

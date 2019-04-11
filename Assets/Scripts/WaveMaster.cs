@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class WaveMaster : MonoBehaviour
 {
+
+    public float gameSpeed = 1f; 
+
     public static WaveMaster instance;
 
     public Transform enemyPrefab;
@@ -14,6 +17,8 @@ public class WaveMaster : MonoBehaviour
     public float timeBetweenWaves = 5f;
     private float countdown = 2f;
     public int waveNumber = 1;
+
+    public float enemySpawnWait = 0.7f;
 
     private int waveIndex = 0;
 
@@ -34,6 +39,9 @@ public class WaveMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        enemySpawnWait = enemySpawnWait - (waveNumber/100);
+        Time.timeScale = gameSpeed;
+
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
@@ -57,21 +65,12 @@ public class WaveMaster : MonoBehaviour
             {
                 SpawnEnemy();
                 i++;
-                yield return new WaitForSeconds(0.7f);
+                yield return new WaitForSeconds(enemySpawnWait);
                 countdown = timeBetweenWaves;
 
 
             }
 
-            else if (i < fastEnemies)
-            {
-                SpawnFast();
-                i++;
-                yield return new WaitForSeconds(0.7f);
-                countdown = timeBetweenWaves;
-
-
-            }
         }
         countdown = timeBetweenWaves;
         UpgradeWave();

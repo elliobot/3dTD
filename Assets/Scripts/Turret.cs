@@ -15,8 +15,11 @@ public class Turret : MonoBehaviour {
     private float fireCountdown = 0f;
 
     public float goldCost = 10f;
-    public float woodCost = 5f;
 
+    [Header("Upgrade Info")]
+    public float rangeUpgrade = 0f;
+    public float damageUpgrade = 0f;
+    public float attackspeedUpgrade = 0f;
 
     [Header("Unity Settings")]
 

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour {
-    private Renderer rend;
 
     public float maxEnemyHealth = 10f;
     public float goldDrop = 1f;
@@ -13,7 +12,7 @@ public class Enemy : MonoBehaviour {
 
 
     public float currentFrame = 0f;
-
+    public GameObject deathEffect;
 
     public Mesh animation1 = null;
     public Mesh animation2 = null;
@@ -24,16 +23,13 @@ public class Enemy : MonoBehaviour {
     // Use this for initialization
     void Start () {
         currentcountdown = Animationcountdown;
-        maxEnemyHealth += WaveMaster.instance.waveNumber ;
-        currentEnemyHealth = maxEnemyHealth - 2;
-        rend = GetComponent<Renderer>();
-
+        maxEnemyHealth += Mathf.Round(2.5f * WaveMaster.instance.waveNumber);
+        currentEnemyHealth = maxEnemyHealth;
+        goldDrop = 10 + Mathf.Round(WaveMaster.instance.waveNumber / 5);
     }
 
     // Update is called once per frame
     void Update () {
-        float currentHealthStat = currentEnemyHealth / (maxEnemyHealth + 1);
-        rend.material.color = new Color(1 - (1f * currentHealthStat), 1 * currentHealthStat, 0f);
         currentcountdown -= Time.deltaTime;
 
         if (currentcountdown <= 0f)
@@ -83,8 +79,10 @@ public class Enemy : MonoBehaviour {
         if (currentEnemyHealth <= 0)
         {
             ResourceManager.instance.gold += goldDrop;
-
+            GameObject deathFx = (GameObject)Instantiate(deathEffect, transform.position, transform.rotation);
             Destroy(gameObject);
+            Destroy(deathFx, 2f);
+
         }
     }
 }

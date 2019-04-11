@@ -18,13 +18,11 @@ public class Upgrades : MonoBehaviour {
         instance = this;
     }
 
-    public void PurchaseUpgrade(float cost, float woodincrease, float goldincrease, float woodclickincrease)
+    public void PurchaseUpgrade(float cost, float goldincrease)
     {
         Debug.Log("Chaching");
         ResourceManager.instance.gold -= cost;
-        ResourceManager.instance.woodPerSecond += woodincrease;
-        ResourceManager.instance.woodClickRate += woodclickincrease;
-        ResourceManager.instance.goldPerSecond += goldincrease;
+        ResourceManager.instance.goldPerSecond += ResourceManager.instance.goldPerSecond;
          
     }
     // Update is called once per frame

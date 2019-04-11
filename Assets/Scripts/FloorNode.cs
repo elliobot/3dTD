@@ -15,8 +15,12 @@ public class FloorNode : MonoBehaviour {
 
     public float upgradeLevel = 1f;
 
+    [Header("Select AOE Settings")]
     public GameObject selectedAreaObjectFail;
     public GameObject selectedAreaObject;
+    public GameObject selectedAreaObjectUpgrade;
+
+    [Header("Turret Settings")]
 
     private Turret turretData;
 
@@ -26,7 +30,12 @@ public class FloorNode : MonoBehaviour {
     BuildManager buildManager;
     public string selectTag = "Selection";
 
+    [Header("Upgrade Settings")]
     public float upgradecost = 0f;
+
+
+
+
 
     private void Start()
     {
@@ -39,8 +48,7 @@ public class FloorNode : MonoBehaviour {
     {
         if (this.currentTurret != null)
         {
-            turretData = this.currentTurret.GetComponent<Turret>();
-            upgradecost = Mathf.Round(turretData.goldCost / 2) * upgradeLevel;
+            
             if (upgradeLevel == 2)
             {
                 this.startColor = Color.green;
@@ -93,22 +101,24 @@ public class FloorNode : MonoBehaviour {
                 Vector3 PositionNew = new Vector3(transform.position.x - 5, transform.position.y + 22, transform.position.z - 6);
                 turretSelected = turretToBuild.GetComponent<Turret>();
 
-                if (ResourceManager.instance.gold < turretSelected.goldCost || ResourceManager.instance.wood < turretSelected.woodCost)
+                if (ResourceManager.instance.gold < turretSelected.goldCost)
                 {
 
                 }
                 else
                 {
                     ResourceManager.instance.gold = ResourceManager.instance.gold - turretSelected.goldCost;
-                    ResourceManager.instance.wood = ResourceManager.instance.wood - turretSelected.woodCost;
                     this.currentTurret = (GameObject)Instantiate(turretToBuild, PositionNew, Quaternion.Euler(0, 0, 0));
+                    turretData = this.currentTurret.GetComponent<Turret>();
+                    upgradecost = (upgradeLevel * Mathf.Round(turretData.goldCost / 2)) + 100;
+
                 }
             }
         }
     }
     public void UpgradeTurret()
     {
-
+        
         if (upgradeLevel != 6)
         {
 
@@ -117,10 +127,11 @@ public class FloorNode : MonoBehaviour {
                 if (ResourceManager.instance.gold >= upgradecost)
                 {
                     ResourceManager.instance.gold = ResourceManager.instance.gold - upgradecost;
-                    turretData.damage = turretData.damage + 0.5f;
-                    turretData.range = turretData.range + 0.5f;
-                    turretData.fireRate = turretData.fireRate + 0.3f;
+                    turretData.damage = turretData.damage * turretData.damageUpgrade;
+                    turretData.range = turretData.range * turretData.rangeUpgrade;
+                    turretData.fireRate = turretData.fireRate * turretData.attackspeedUpgrade;
                     upgradeLevel++;
+                    upgradecost = upgradecost + (upgradeLevel * Mathf.Round(turretData.goldCost / 2)) + 100;
 
                 }
             }
@@ -129,10 +140,11 @@ public class FloorNode : MonoBehaviour {
                 if (ResourceManager.instance.gold >= upgradecost)
                 {
                     ResourceManager.instance.gold = ResourceManager.instance.gold - upgradecost;
-                    turretData.damage = turretData.damage + 0.5f;
-                    turretData.range = turretData.range + 5f;
-                    turretData.fireRate = turretData.fireRate + 0.3f;
+                    turretData.damage = turretData.damage * turretData.damageUpgrade;
+                    turretData.range = turretData.range * turretData.rangeUpgrade;
+                    turretData.fireRate = turretData.fireRate * turretData.attackspeedUpgrade;
                     upgradeLevel++;
+                    upgradecost = upgradecost + (upgradeLevel * Mathf.Round(turretData.goldCost / 2)) + 100;
 
                 }
 
@@ -142,10 +154,11 @@ public class FloorNode : MonoBehaviour {
                 if (ResourceManager.instance.gold >= upgradecost)
                 {
                     ResourceManager.instance.gold = ResourceManager.instance.gold - upgradecost;
-                    turretData.damage = turretData.damage + 0.5f;
-                    turretData.range = turretData.range + 5f;
-                    turretData.fireRate = turretData.fireRate + 0.3f;
+                    turretData.damage = turretData.damage * turretData.damageUpgrade;
+                    turretData.range = turretData.range * turretData.rangeUpgrade;
+                    turretData.fireRate = turretData.fireRate * turretData.attackspeedUpgrade;
                     upgradeLevel++;
+                    upgradecost = upgradecost + (upgradeLevel * Mathf.Round(turretData.goldCost / 2)) + 100;
 
                 }
             }
@@ -154,10 +167,11 @@ public class FloorNode : MonoBehaviour {
                 if (ResourceManager.instance.gold >= upgradecost)
                 {
                     ResourceManager.instance.gold = ResourceManager.instance.gold - upgradecost;
-                    turretData.damage = turretData.damage + 0.5f;
-                    turretData.range = turretData.range + 5f;
-                    turretData.fireRate = turretData.fireRate + 0.3f;
+                    turretData.damage = turretData.damage * turretData.damageUpgrade;
+                    turretData.range = turretData.range * turretData.rangeUpgrade;
+                    turretData.fireRate = turretData.fireRate * turretData.attackspeedUpgrade;
                     upgradeLevel++;
+                    upgradecost = upgradecost + (upgradeLevel * Mathf.Round(turretData.goldCost / 2)) + 100;
 
                 }
             }
@@ -166,17 +180,43 @@ public class FloorNode : MonoBehaviour {
                 if (ResourceManager.instance.gold >= upgradecost)
                 {
                     ResourceManager.instance.gold = ResourceManager.instance.gold - upgradecost;
-                    turretData.damage = turretData.damage + 0.5f;
-                    turretData.range = turretData.range + 5f;
-                    turretData.fireRate = turretData.fireRate + 0.3f;
+                    turretData.damage = turretData.damage * turretData.damageUpgrade;
+                    turretData.range = turretData.range * turretData.rangeUpgrade;
+                    turretData.fireRate = turretData.fireRate * turretData.attackspeedUpgrade;
                     upgradeLevel++;
+                    upgradecost = upgradecost + (upgradeLevel * Mathf.Round(turretData.goldCost / 2)) + 100;
 
                 }
             }
+
         }
+
     }
     void OnMouseOver()
     {
+        if (this.currentTurret != null && turretData != null)
+        {
+            TowerRange();
+            ResourceManager.instance.MoveObjet();
+
+
+            if (this.upgradeLevel < 6)
+            {
+                ResourceManager.instance.mouseText.text = "Upgrade: " + upgradecost.ToString() + "g";
+            }
+            else
+            {
+                ResourceManager.instance.mouseText.text = "Upgrade: MAX";
+
+            }
+
+        }
+        else
+        {
+            ResourceManager.instance.mouseText.text = "";
+
+        }
+
         if (!EventSystem.current.IsPointerOverGameObject())
         {
             if (buildManager.GetTurretToBuild() == null)
@@ -190,7 +230,7 @@ public class FloorNode : MonoBehaviour {
 
             
 
-            if (turretToBuild != null && turretSelected != null)
+            if (turretToBuild != null && turretSelected != null && currentTurret == null)
             {
 
                 SelectArea();
@@ -220,7 +260,7 @@ public class FloorNode : MonoBehaviour {
     public void SelectArea()
     {
         turretRange = turretSelected.range;
-        if (ResourceManager.instance.gold >= turretSelected.goldCost && ResourceManager.instance.wood >= turretSelected.woodCost  )
+        if (ResourceManager.instance.gold >= turretSelected.goldCost)
         {
              if (selectedArea == null || selectionStatus == false)
              {
@@ -232,7 +272,7 @@ public class FloorNode : MonoBehaviour {
              }
             return;
         }
-        else if (ResourceManager.instance.gold < turretSelected.goldCost || ResourceManager.instance.wood < turretSelected.woodCost || this.currentTurret != null)
+        else if (ResourceManager.instance.gold < turretSelected.goldCost || this.currentTurret != null)
         {
              if (selectedArea == null || selectionStatus == true)
              {
@@ -248,40 +288,14 @@ public class FloorNode : MonoBehaviour {
         return;
     }
 
+    public void TowerRange()
+    {
 
-
-    //public void SelectArea()
-    //{
-
-    //    if (BuildManager.instance.GetTurretToBuild() != null)
-    //    {
-    //        turretRange = turretSelected.range;
-
-    //        if (ResourceManager.instance.gold >= turretSelected.goldCost && ResourceManager.instance.wood >= turretSelected.woodCost)
-    //        {
-    //            if (selectionStatus != selectedAreaObject)
-    //            {
-
-    //                this.selectionStatus = selectedAreaObject;
-
-    //                this.selectedArea = (GameObject)Instantiate(selectionStatus, transform.position + positionOffset, transform.rotation);
-    //                this.selectedArea.transform.localScale = new Vector3(turretRange, turretRange, 0);
-
-    //            }
-    //            return;
-    //        }
-    //        else
-    //        {
-    //            if (selectionStatus != selectedAreaObjectFail)
-    //            {
-    //                this.selectionStatus = selectedAreaObjectFail;
-    //                this.selectedArea = (GameObject)Instantiate(selectionStatus, transform.position + positionOffset, transform.rotation);
-    //                this.selectedArea.transform.localScale = new Vector3(turretRange, turretRange, 0);
-    //            }
-    //            return;
-    //        }
-    //    }
-    //    DeleteAreas();
-    //}
+            DeleteAreas();
+            selectionStatus = true;
+            this.selectedArea = (GameObject)Instantiate(selectedAreaObjectUpgrade, transform.position + positionOffset, transform.rotation);
+            this.selectedArea.transform.localScale = new Vector3(turretData.range, turretData.range, 0);
+            return;
+    }
 
 }

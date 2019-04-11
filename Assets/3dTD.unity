@@ -165,6 +165,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -275,6 +277,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -387,6 +391,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -497,6 +503,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -609,6 +617,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -720,6 +730,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -779,67 +791,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 86227305}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &97016337
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1308154680509080, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 97016338}
-  - component: {fileID: 97016339}
-  m_Layer: 5
-  m_Name: WoodUpgrades
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &97016338
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224494031914633190, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 97016337}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 666995634}
-  - {fileID: 1893355047}
-  m_Father: {fileID: 154158322}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 123.45, y: -15.385}
-  m_SizeDelta: {x: 0, y: 28.77}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &97016339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114633746086230064, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 97016337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 5
-    m_Right: 0
-    m_Top: -1
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
 --- !u!1 &107385141
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +842,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -1068,6 +1021,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -1179,6 +1134,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -1238,189 +1195,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 149244197}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &154158321
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1578222536028084, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 154158322}
-  - component: {fileID: 154158328}
-  - component: {fileID: 154158327}
-  - component: {fileID: 154158326}
-  - component: {fileID: 154158325}
-  - component: {fileID: 154158324}
-  - component: {fileID: 154158323}
-  m_Layer: 5
-  m_Name: Wood
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &154158322
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224547544617876088, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 154158321}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 732411418}
-  - {fileID: 97016338}
-  m_Father: {fileID: 2042573698}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 35}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &154158323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114448634554026014, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 154158321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 0, a: 1}
-    m_DisabledColor: {r: 0.19215688, g: 0.19215688, b: 0.19215688, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 154158327}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 154158324}
-        m_MethodName: newButtonPress
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PurchaseUpgrade()
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &154158324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114555063094670776, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 154158321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f301b62c3ec001a4dbe804edc4593162, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  childMenu: {fileID: 97016337}
-  flipObjectOnPress: 0
---- !u!114 &154158325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114213881175470924, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 154158321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.41176468, g: 0.41176468, b: 0.41176468, a: 1}
-  m_EffectDistance: {x: 0, y: -5}
-  m_UseGraphicAlpha: 1
---- !u!114 &154158326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114732158466425002, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 154158321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 1
-    m_Right: 0
-    m_Top: 1
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
---- !u!114 &154158327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114939684725983596, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 154158321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.64705884, g: 0.64705884, b: 0.64705884, a: 1}
-  m_RaycastTarget: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &154158328
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222661591202456424, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 154158321}
 --- !u!1 &184550419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,6 +1246,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -1584,6 +1360,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -1694,6 +1472,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -1806,6 +1586,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -1916,6 +1698,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -2109,6 +1893,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -2220,6 +2006,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -2312,10 +2100,9 @@ RectTransform:
   m_Children:
   - {fileID: 1530705863}
   - {fileID: 1902790166}
-  - {fileID: 714947578}
-  - {fileID: 747409055}
   - {fileID: 2004499821}
   - {fileID: 410790404}
+  - {fileID: 1288616057}
   m_Father: {fileID: 1743141409}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2357,7 +2144,7 @@ MonoBehaviour:
     m_Top: 1
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 0
+  m_Spacing: 1
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -2448,6 +2235,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -2590,6 +2379,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -2701,6 +2492,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -2772,6 +2565,7 @@ GameObject:
   - component: {fileID: 410790407}
   - component: {fileID: 410790406}
   - component: {fileID: 410790405}
+  - component: {fileID: 410790408}
   m_Layer: 5
   m_Name: Lives
   m_TagString: Untagged
@@ -2791,7 +2585,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 319564354}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2856,6 +2650,20 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 410790403}
+--- !u!114 &410790408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 410790403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.34}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &428102168
 GameObject:
   m_ObjectHideFlags: 0
@@ -2907,6 +2715,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -3019,6 +2829,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -3130,6 +2942,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -3240,6 +3054,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -3385,7 +3201,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 508967873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.32, y: 0, z: 162.14}
+  m_LocalPosition: {x: -21.32, y: 0, z: 73.2}
   m_LocalScale: {x: 24.085878, y: 0.9999982, z: 58.037033}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3442,6 +3258,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -3502,100 +3320,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 520932847}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &522691150
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1873604377122816, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 522691151}
-  - component: {fileID: 522691154}
-  - component: {fileID: 522691153}
-  - component: {fileID: 522691152}
-  m_Layer: 5
-  m_Name: Detail
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &522691151
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224098633762180096, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 522691150}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 666995634}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 31.015, y: -15.765}
-  m_SizeDelta: {x: 60.03, y: 29.53}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &522691152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114416291573164334, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 522691150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 0, y: -1}
-  m_UseGraphicAlpha: 1
---- !u!114 &522691153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114901437843543370, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 522691150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 0.8
-  m_Text: Upgrade Name
---- !u!222 &522691154
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222999855070169594, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 522691150}
 --- !u!1 &540867019
 GameObject:
   m_ObjectHideFlags: 0
@@ -3647,6 +3371,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -3788,6 +3514,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -3994,6 +3722,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -4053,6 +3783,115 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 585542996}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
+--- !u!1 &597782692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1722064978949864, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 597782693}
+  - component: {fileID: 597782697}
+  - component: {fileID: 597782696}
+  - component: {fileID: 597782695}
+  - component: {fileID: 597782694}
+  m_Layer: 5
+  m_Name: Turret1Cost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &597782693
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224951994627708218, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597782692}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 966213281}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -187.3, y: -3.2999992}
+  m_SizeDelta: {x: 117.5, y: 20}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &597782694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597782692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &597782695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114013688393768042, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597782692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 0.6413793, b: 0, a: 0.5}
+  m_EffectDistance: {x: 0, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &597782696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114268952542238188, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597782692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9034482, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 5
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Cost: 100g'
+--- !u!222 &597782697
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 222672534872514856, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597782692}
 --- !u!1 &618524620
 GameObject:
   m_ObjectHideFlags: 0
@@ -4104,6 +3943,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -4215,6 +4056,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -4356,6 +4199,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -4510,6 +4355,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -4569,194 +4416,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 655584782}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &666995633
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1046310249322934, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 666995634}
-  - component: {fileID: 666995640}
-  - component: {fileID: 666995639}
-  - component: {fileID: 666995638}
-  - component: {fileID: 666995637}
-  - component: {fileID: 666995636}
-  - component: {fileID: 666995635}
-  m_Layer: 5
-  m_Name: Upgrades (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &666995634
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224026897013348084, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 666995633}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 522691151}
-  - {fileID: 1621744909}
-  m_Father: {fileID: 97016338}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 68.2, y: -16.5}
-  m_SizeDelta: {x: 126.4, y: 35}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &666995635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114541291903541970, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 666995633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 0, a: 1}
-    m_DisabledColor: {r: 0.19215688, g: 0.19215688, b: 0.19215688, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 666995639}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 666995636}
-        m_MethodName: Clickeroni
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PurchaseUpgrade()
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &666995636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114552361591469934, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 666995633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c27c11f9e7d9a84b9e40f134b2fdbfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  upgradeCost: 10
-  woodIncrease: 0
-  goldIncrease: 0
-  woodclickincrease: 1
-  upgradeDescription: Upgrade Wood Click
-  goldText: {fileID: 1621744911}
-  descText: {fileID: 522691153}
---- !u!114 &666995637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114887562839028234, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 666995633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.41176468, g: 0.41176468, b: 0.41176468, a: 1}
-  m_EffectDistance: {x: 0, y: -5}
-  m_UseGraphicAlpha: 1
---- !u!114 &666995638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114281757469181426, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 666995633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 1
-    m_Right: 0
-    m_Top: 1
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
---- !u!114 &666995639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114032582019606098, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 666995633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.64705884, g: 0.64705884, b: 0.64705884, a: 1}
-  m_RaycastTarget: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &666995640
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222631704055907684, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 666995633}
 --- !u!1 &667422594
 GameObject:
   m_ObjectHideFlags: 0
@@ -4808,6 +4467,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -4920,6 +4581,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -4979,78 +4642,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 683876569}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &714947577
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1247227948027752, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 714947578}
-  - component: {fileID: 714947580}
-  - component: {fileID: 714947579}
-  m_Layer: 5
-  m_Name: WoodImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &714947578
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224930967093600422, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 714947577}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 319564354}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &714947579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114058146553746888, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 714947577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 81a75e527d9d8e944ab7b8de06e2d248, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &714947580
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222822884392629544, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 714947577}
 --- !u!1 &728900790
 GameObject:
   m_ObjectHideFlags: 0
@@ -5102,6 +4693,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -5162,100 +4755,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 728900790}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &732411417
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1756419380508528, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 732411418}
-  - component: {fileID: 732411421}
-  - component: {fileID: 732411420}
-  - component: {fileID: 732411419}
-  m_Layer: 5
-  m_Name: Detail
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &732411418
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224633220018123342, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 732411417}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 154158322}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 122.45, y: 34}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &732411419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114964335952129698, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 732411417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 0, y: -1}
-  m_UseGraphicAlpha: 1
---- !u!114 &732411420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114063386584486476, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 732411417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 0.8
-  m_Text: Wood Upgrades
---- !u!222 &732411421
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222179224401742758, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 732411417}
 --- !u!1 &741523702
 GameObject:
   m_ObjectHideFlags: 0
@@ -5307,6 +4806,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -5367,100 +4868,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 741523702}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &747409054
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1239433601125636, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 747409055}
-  - component: {fileID: 747409058}
-  - component: {fileID: 747409057}
-  - component: {fileID: 747409056}
-  m_Layer: 5
-  m_Name: Wood
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &747409055
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224806951742008520, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 747409054}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 319564354}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 117.5, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &747409056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114746219231588614, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 747409054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.3602941, g: 0.15321507, b: 0.039738316, a: 0.5}
-  m_EffectDistance: {x: 0, y: -1}
-  m_UseGraphicAlpha: 1
---- !u!114 &747409057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114011815578483220, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 747409054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.375, g: 0.2579361, b: 0.15165442, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Wood
---- !u!222 &747409058
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222751226311773356, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 747409054}
 --- !u!1 &747683257
 GameObject:
   m_ObjectHideFlags: 0
@@ -5512,6 +4919,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -5624,6 +5033,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -5734,6 +5145,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -5846,6 +5259,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -5956,6 +5371,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -6068,6 +5485,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -6179,6 +5598,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -6289,6 +5710,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -6485,6 +5908,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -6595,6 +6020,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -6707,6 +6134,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -6818,6 +6247,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -6908,7 +6339,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 597782693}
   m_Father: {fileID: 1870124373}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7087,6 +6519,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -7197,6 +6631,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -7309,6 +6745,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -7419,6 +6857,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -7531,6 +6971,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -7590,160 +7032,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1011285146}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &1012238031
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1340496085460632, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1012238032}
-  - component: {fileID: 1012238038}
-  - component: {fileID: 1012238037}
-  - component: {fileID: 1012238036}
-  - component: {fileID: 1012238033}
-  - component: {fileID: 1012238035}
-  - component: {fileID: 1012238034}
-  m_Layer: 5
-  m_Name: Shop (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1012238032
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224719972501703062, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012238031}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1842950998}
-  m_Father: {fileID: 1743141409}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -928.8, y: -266.63}
-  m_SizeDelta: {x: 70.2, y: -550.75}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1012238033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114201753309433738, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012238031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2b9ea2a7701d34ab894ace253875f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!61 &1012238034
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 61987309148314954, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012238031}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 1
-  m_UsedByComposite: 0
-  m_Offset: {x: 1.5333557, y: -4.614731}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 224.08942, y: 145.62173}
-  m_EdgeRadius: 0
---- !u!114 &1012238035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114673061289794030, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012238031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.41176468, g: 0.41176468, b: 0.41176468, a: 1}
-  m_EffectDistance: {x: 0, y: -5}
-  m_UseGraphicAlpha: 1
---- !u!114 &1012238036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114766659324406656, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012238031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 7
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 60, y: 60}
-  m_Spacing: {x: 7, y: 8}
-  m_Constraint: 0
-  m_ConstraintCount: 1
---- !u!114 &1012238037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114425983717752718, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012238031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.6431373, g: 0.6431373, b: 0.6431373, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1012238038
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222029966704294050, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012238031}
 --- !u!1 &1014591930
 GameObject:
   m_ObjectHideFlags: 0
@@ -7795,6 +7083,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -7906,6 +7196,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -8022,6 +7314,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -8132,6 +7426,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -8244,6 +7540,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -8354,6 +7652,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -8649,6 +7949,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -8760,6 +8062,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -8870,6 +8174,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -9068,6 +8374,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -9178,6 +8486,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -9290,6 +8600,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -9379,6 +8691,115 @@ Transform:
   m_Father: {fileID: 490080145}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1288616056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1239433601125636, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1288616057}
+  - component: {fileID: 1288616060}
+  - component: {fileID: 1288616059}
+  - component: {fileID: 1288616058}
+  - component: {fileID: 1288616061}
+  m_Layer: 5
+  m_Name: Round
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1288616057
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224806951742008520, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1288616056}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 319564354}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 117.5, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1288616058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114746219231588614, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1288616056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 0, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1288616059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114011815578483220, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1288616056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.25, g: 0.25, b: 0.25, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Round:'
+--- !u!222 &1288616060
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 222751226311773356, guid: 8a90afe2e5603274497010d5613531eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1288616056}
+--- !u!114 &1288616061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1288616056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.8455882, g: 0.8455882, b: 0.8455882, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1294591337
 GameObject:
   m_ObjectHideFlags: 0
@@ -9460,6 +8881,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -9568,7 +8991,7 @@ Prefab:
         type: 2}
       propertyPath: woodText
       value: 
-      objectReference: {fileID: 747409057}
+      objectReference: {fileID: 0}
     - target: {fileID: 114247640257619970, guid: 65637a329266e1c4a9d8229c4c64c6fc,
         type: 2}
       propertyPath: spawnPoint
@@ -9609,6 +9032,76 @@ Prefab:
       propertyPath: healthText
       value: 
       objectReference: {fileID: 410790406}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: MovingObject
+      value: 
+      objectReference: {fileID: 1617571329}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: BasisObject
+      value: 
+      objectReference: {fileID: 319564354}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 283946984}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: mouseText
+      value: 
+      objectReference: {fileID: 1617571331}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: offset.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: offset.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: textBackground
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: roundText
+      value: 
+      objectReference: {fileID: 1288616059}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: gold
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: woodClickRate
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: goldPerSecond
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: rangeUpgrade
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: damageUpgrade
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114497891824016676, guid: 65637a329266e1c4a9d8229c4c64c6fc,
+        type: 2}
+      propertyPath: attackspeedUpgrade
+      value: 1.15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 65637a329266e1c4a9d8229c4c64c6fc, type: 2}
   m_IsPrefabParent: 0
@@ -9663,6 +9156,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -9775,6 +9270,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -9885,6 +9382,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -9997,6 +9496,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -10107,6 +9608,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -10219,6 +9722,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -10278,73 +9783,88 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1399032426}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &1421712511
+--- !u!1 &1410788110
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1417544221109196, guid: 8a90afe2e5603274497010d5613531eb,
+  m_PrefabParentObject: {fileID: 1722064978949864, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1421712512}
-  - component: {fileID: 1421712515}
-  - component: {fileID: 1421712514}
-  - component: {fileID: 1421712513}
+  - component: {fileID: 1410788111}
+  - component: {fileID: 1410788115}
+  - component: {fileID: 1410788114}
+  - component: {fileID: 1410788113}
+  - component: {fileID: 1410788112}
   m_Layer: 5
-  m_Name: Detail
+  m_Name: Turret3Cost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1421712512
+--- !u!224 &1410788111
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224920948789366310, guid: 8a90afe2e5603274497010d5613531eb,
+  m_PrefabParentObject: {fileID: 224951994627708218, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1421712511}
+  m_GameObject: {fileID: 1410788110}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1893355047}
+  m_Father: {fileID: 1436325197}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 31.015, y: -15.765}
-  m_SizeDelta: {x: 60.03, y: 29.53}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1421712513
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -187.30005, y: 0.2}
+  m_SizeDelta: {x: 120, y: 20}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &1410788112
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114446271896083894, guid: 8a90afe2e5603274497010d5613531eb,
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1410788110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1410788113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114013688393768042, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1421712511}
+  m_GameObject: {fileID: 1410788110}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectColor: {r: 1, g: 0.6413793, b: 0, a: 0.5}
   m_EffectDistance: {x: 0, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &1421712514
+--- !u!114 &1410788114
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114662390760498820, guid: 8a90afe2e5603274497010d5613531eb,
+  m_PrefabParentObject: {fileID: 114268952542238188, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1421712511}
+  m_GameObject: {fileID: 1410788110}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9034482, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -10355,23 +9875,23 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 1
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
+    m_Alignment: 5
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.8
-  m_Text: Upgrade Name
---- !u!222 &1421712515
+    m_LineSpacing: 1
+  m_Text: 'Cost: 500g'
+--- !u!222 &1410788115
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222751779022799088, guid: 8a90afe2e5603274497010d5613531eb,
+  m_PrefabParentObject: {fileID: 222672534872514856, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1421712511}
+  m_GameObject: {fileID: 1410788110}
 --- !u!1 &1436325196
 GameObject:
   m_ObjectHideFlags: 0
@@ -10387,7 +9907,7 @@ GameObject:
   - component: {fileID: 1436325199}
   - component: {fileID: 1436325198}
   m_Layer: 5
-  m_Name: ShopTurret1 (2)
+  m_Name: ShopTurret3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10403,7 +9923,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1410788111}
   m_Father: {fileID: 1870124373}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10648,6 +10169,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -10759,6 +10282,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -10869,6 +10394,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -11053,6 +10580,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -11163,6 +10692,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -11432,6 +10963,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -11586,6 +11119,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -11602,73 +11137,74 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12, y: 12.000003, z: 2.0000005}
   m_Center: {x: -6, y: 6.0000014, z: 21.000006}
---- !u!1 &1621744908
+--- !u!1 &1617571328
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1564861578779798, guid: 8a90afe2e5603274497010d5613531eb,
+  m_PrefabParentObject: {fileID: 1722064978949864, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1621744909}
-  - component: {fileID: 1621744912}
-  - component: {fileID: 1621744911}
-  - component: {fileID: 1621744910}
+  - component: {fileID: 1617571329}
+  - component: {fileID: 1617571332}
+  - component: {fileID: 1617571331}
+  - component: {fileID: 1617571330}
+  - component: {fileID: 1617571333}
   m_Layer: 5
-  m_Name: Gold
+  m_Name: Upgrade Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1621744909
+--- !u!224 &1617571329
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224862857956673384, guid: 8a90afe2e5603274497010d5613531eb,
+  m_PrefabParentObject: {fileID: 224951994627708218, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1621744908}
+  m_GameObject: {fileID: 1617571328}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -443}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 666995634}
-  m_RootOrder: 1
+  m_Father: {fileID: 1743141409}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 90.68, y: -15.765}
-  m_SizeDelta: {x: 59.3, y: 29.53}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1621744910
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 301.7, y: -385}
+  m_SizeDelta: {x: 117.5, y: 20}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &1617571330
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114364392476830274, guid: 8a90afe2e5603274497010d5613531eb,
+  m_PrefabParentObject: {fileID: 114013688393768042, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1621744908}
+  m_GameObject: {fileID: 1617571328}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 1, g: 0.354, b: 0, a: 0.5}
+  m_EffectColor: {r: 1, g: 0.6413793, b: 0, a: 0.5}
   m_EffectDistance: {x: 0, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &1621744911
+--- !u!114 &1617571331
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114543524340583096, guid: 8a90afe2e5603274497010d5613531eb,
+  m_PrefabParentObject: {fileID: 114268952542238188, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1621744908}
+  m_GameObject: {fileID: 1617571328}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.9034482, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -11683,19 +11219,33 @@ MonoBehaviour:
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 3
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Money
---- !u!222 &1621744912
+  m_Text: Upgrade Text
+--- !u!222 &1617571332
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222007048071441020, guid: 8a90afe2e5603274497010d5613531eb,
+  m_PrefabParentObject: {fileID: 222672534872514856, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1621744908}
+  m_GameObject: {fileID: 1617571328}
+--- !u!114 &1617571333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1617571328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1622356276
 GameObject:
   m_ObjectHideFlags: 0
@@ -11747,6 +11297,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -11859,6 +11411,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -11969,6 +11523,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -12081,6 +11637,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -12192,6 +11750,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -12251,100 +11811,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1638924846}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &1646504533
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1995688332285648, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1646504534}
-  - component: {fileID: 1646504537}
-  - component: {fileID: 1646504536}
-  - component: {fileID: 1646504535}
-  m_Layer: 5
-  m_Name: Gold
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1646504534
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224186633118856968, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1646504533}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1893355047}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 90.68, y: -15.765}
-  m_SizeDelta: {x: 59.3, y: 29.53}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1646504535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114271405565831664, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1646504533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 1, g: 0.354, b: 0, a: 0.5}
-  m_EffectDistance: {x: 0, y: -1}
-  m_UseGraphicAlpha: 1
---- !u!114 &1646504536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114959727844942148, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1646504533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Money
---- !u!222 &1646504537
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222120069178704820, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1646504533}
 --- !u!1 &1659077933
 GameObject:
   m_ObjectHideFlags: 0
@@ -12483,6 +11949,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -12593,6 +12061,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -12885,6 +12355,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -13090,6 +12562,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -13201,6 +12675,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -13311,6 +12787,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -13476,9 +12954,9 @@ RectTransform:
   m_Children:
   - {fileID: 319564354}
   - {fileID: 2042573698}
-  - {fileID: 1012238032}
   - {fileID: 1832608365}
   - {fileID: 1870124373}
+  - {fileID: 1617571329}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -5.9570003, z: 0}
@@ -13538,6 +13016,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -13785,6 +13265,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -13844,6 +13326,115 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1779533270}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
+--- !u!1 &1782486481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1722064978949864, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1782486482}
+  - component: {fileID: 1782486486}
+  - component: {fileID: 1782486485}
+  - component: {fileID: 1782486484}
+  - component: {fileID: 1782486483}
+  m_Layer: 5
+  m_Name: Turret2Cost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1782486482
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224951994627708218, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1782486481}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2104087084}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -129.4, y: -30.175537}
+  m_SizeDelta: {x: 120, y: 20}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &1782486483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1782486481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1782486484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114013688393768042, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1782486481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 0.6413793, b: 0, a: 0.5}
+  m_EffectDistance: {x: 0, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1782486485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114268952542238188, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1782486481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9034482, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 5
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Cost: 300g'
+--- !u!222 &1782486486
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 222672534872514856, guid: 0077e37c1c3cbba44b6bbab19df63c4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1782486481}
 --- !u!1 &1818382787
 GameObject:
   m_ObjectHideFlags: 0
@@ -13895,6 +13486,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -13971,7 +13564,7 @@ GameObject:
   - component: {fileID: 1832608367}
   - component: {fileID: 1832608366}
   m_Layer: 5
-  m_Name: Wood (1)
+  m_Name: Shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13990,11 +13583,11 @@ RectTransform:
   m_Children:
   - {fileID: 1584401156}
   m_Father: {fileID: 1743141409}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -24, y: -17.3}
+  m_AnchoredPosition: {x: -23.57, y: -17.299988}
   m_SizeDelta: {x: 47, y: 33.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1832608366
@@ -14137,148 +13730,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1832608364}
---- !u!1 &1842950997
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1713392508367856, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1842950998}
-  - component: {fileID: 1842951002}
-  - component: {fileID: 1842951001}
-  - component: {fileID: 1842951000}
-  - component: {fileID: 1842950999}
-  m_Layer: 5
-  m_Name: Wood
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1842950998
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224805668774334572, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1842950997}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1012238032}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1842950999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114228162187051492, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1842950997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -1}
-  m_UseGraphicAlpha: 1
---- !u!114 &1842951000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114633440604674906, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1842950997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 0.47794116, g: 0.47794116, b: 0.47794116, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: 4780116272b168841a2656a0c38e22a9, type: 3}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1842951001}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1012238033}
-        m_MethodName: ChopWood
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1842951001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114820656257960654, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1842950997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1e99539eaad28be4488bd14c1f123131, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1842951002
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222305462697701630, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1842950997}
 --- !u!1 &1870124372
 GameObject:
   m_ObjectHideFlags: 0
@@ -14317,12 +13768,12 @@ RectTransform:
   - {fileID: 2104087084}
   - {fileID: 1436325197}
   m_Father: {fileID: 1743141409}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -39.119995, y: 134.33}
-  m_SizeDelta: {x: 78.24, y: -336.86}
+  m_AnchoredPosition: {x: -35.3, y: -137.5}
+  m_SizeDelta: {x: 70.13, y: 210}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1870124374
 MonoBehaviour:
@@ -14363,7 +13814,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 1.5333557, y: -4.614731}
+  m_Offset: {x: -36.26071, y: -65.83353}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -14374,7 +13825,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 224.08942, y: 145.62173}
+  m_Size: {x: 148.50128, y: 210.00787}
   m_EdgeRadius: 0
 --- !u!114 &1870124377
 MonoBehaviour:
@@ -14409,7 +13860,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_StartCorner: 0
+  m_StartCorner: 1
   m_StartAxis: 0
   m_CellSize: {x: 60, y: 60}
   m_Spacing: {x: 7, y: 8}
@@ -14501,6 +13952,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -14613,6 +14066,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -14723,6 +14178,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -14835,6 +14292,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -14894,194 +14353,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1890934492}
   m_Mesh: {fileID: 4300000, guid: 836b4474d58fc9d4fad9968fd0d82d40, type: 3}
---- !u!1 &1893355046
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1321248827290054, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1893355047}
-  - component: {fileID: 1893355053}
-  - component: {fileID: 1893355052}
-  - component: {fileID: 1893355051}
-  - component: {fileID: 1893355050}
-  - component: {fileID: 1893355049}
-  - component: {fileID: 1893355048}
-  m_Layer: 5
-  m_Name: Upgrades (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1893355047
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224452167967274758, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1893355046}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1421712512}
-  - {fileID: 1646504534}
-  m_Father: {fileID: 97016338}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 194.59999, y: -16.5}
-  m_SizeDelta: {x: 126.4, y: 35}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1893355048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114645267539550714, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1893355046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 0, a: 1}
-    m_DisabledColor: {r: 0.19215688, g: 0.19215688, b: 0.19215688, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1893355052}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1893355049}
-        m_MethodName: Clickeroni
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PurchaseUpgrade()
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1893355049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114851147999022616, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1893355046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c27c11f9e7d9a84b9e40f134b2fdbfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  upgradeCost: 10
-  woodIncrease: 1
-  goldIncrease: 0
-  woodclickincrease: 0
-  upgradeDescription: Upgrade WPS
-  goldText: {fileID: 1646504536}
-  descText: {fileID: 1421712514}
---- !u!114 &1893355050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114678191689448626, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1893355046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.41176468, g: 0.41176468, b: 0.41176468, a: 1}
-  m_EffectDistance: {x: 0, y: -5}
-  m_UseGraphicAlpha: 1
---- !u!114 &1893355051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114002675710639890, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1893355046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 1
-    m_Right: 0
-    m_Top: 1
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
---- !u!114 &1893355052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114681263602942660, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1893355046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.64705884, g: 0.64705884, b: 0.64705884, a: 1}
-  m_RaycastTarget: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1893355053
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222080849479884162, guid: 8a90afe2e5603274497010d5613531eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1893355046}
 --- !u!1 &1894408040
 GameObject:
   m_ObjectHideFlags: 0
@@ -15133,6 +14404,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -15205,6 +14478,7 @@ GameObject:
   - component: {fileID: 1902790169}
   - component: {fileID: 1902790168}
   - component: {fileID: 1902790167}
+  - component: {fileID: 1902790170}
   m_Layer: 5
   m_Name: GoldText
   m_TagString: Untagged
@@ -15287,6 +14561,20 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1902790165}
+--- !u!114 &1902790170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1902790165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1919945758
 GameObject:
   m_ObjectHideFlags: 0
@@ -15338,6 +14626,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -15506,10 +14796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c27c11f9e7d9a84b9e40f134b2fdbfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeCost: 10
-  woodIncrease: 0
-  goldIncrease: 2
-  woodclickincrease: 0
+  upgradeCost: 200
+  goldIncrease: 5
   upgradeDescription: Upgrade CPS
   goldText: {fileID: 579328616}
   descText: {fileID: 1700271353}
@@ -15638,6 +14926,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -15748,6 +15038,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
@@ -16021,7 +15313,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 319564354}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -16175,6 +15467,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -16267,13 +15561,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1104628273}
-  - {fileID: 154158322}
   m_Father: {fileID: 1743141409}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 63.19284, y: -283.025}
+  m_AnchoredPosition: {x: 63, y: -283.025}
   m_SizeDelta: {x: 126.4, y: 517.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2042573699
@@ -16413,6 +15706,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -16528,6 +15823,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -16602,7 +15899,7 @@ GameObject:
   - component: {fileID: 2104087086}
   - component: {fileID: 2104087085}
   m_Layer: 5
-  m_Name: ShopTurret1 (1)
+  m_Name: ShopTurret2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16618,7 +15915,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1782486482}
   m_Father: {fileID: 1870124373}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16863,6 +16161,8 @@ MonoBehaviour:
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
     type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
+    type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}
   selectTag: Selection
@@ -16973,6 +16273,8 @@ MonoBehaviour:
   selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
     type: 2}
   selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+    type: 2}
+  selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
     type: 2}
   turretRange: 0
   turretToBuild: {fileID: 0}

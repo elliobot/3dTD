@@ -203,7 +203,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 4.07
+  m_Intensity: 1
   m_Range: 62.13
   m_SpotAngle: 1
   m_CookieSize: 10
@@ -241,10 +241,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxEnemyHealth: 10
-  goldDrop: 1
+  goldDrop: 10
   startColour: {r: 0, g: 1, b: 0, a: 1}
   endColour: {r: 1, g: 0, b: 0, a: 1}
   currentFrame: 0
+  deathEffect: {fileID: 1959922295385526, guid: f72ebdc1343dd4442ab92652736f6e8f,
+    type: 2}
   animation1: {fileID: 4300000, guid: fbbf2ec2b90b0254a9fc0e8172a4853f, type: 3}
   animation2: {fileID: 4300000, guid: 8d8d7ad21ae75f64999bbf508f6c1934, type: 3}
   animation3: {fileID: 4300000, guid: e5ad2fab99a0eab40aad40eb629bf4f1, type: 3}

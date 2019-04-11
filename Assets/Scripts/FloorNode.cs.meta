@@ -1,14 +1,17 @@
 fileFormatVersion: 2
 guid: 4ec2143f60e9283408161f4c647d30ad
-timeCreated: 1551884570
+timeCreated: 1554585323
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
+  - currentTurret: {instanceID: 0}
   - selectedAreaObjectFail: {fileID: 1770716446593588, guid: e16f32bddb0d12b488be658e0f1ed646,
       type: 2}
   - selectedAreaObject: {fileID: 1811960225428428, guid: 86e5b3602505a2949b256ac4387b6fd0,
+      type: 2}
+  - selectedAreaObjectUpgrade: {fileID: 1957230059012130, guid: 33ce8211a155d9949b25e557723da00f,
       type: 2}
   - turretToBuild: {instanceID: 0}
   executionOrder: 0

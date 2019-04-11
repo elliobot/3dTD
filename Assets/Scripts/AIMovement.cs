@@ -15,7 +15,7 @@ public class AIMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         target = Waypoints.points[1];
-
+        speed = speed + (WaveMaster.instance.waveNumber / 100);
     }
 	
 	// Update is called once per frame
@@ -23,7 +23,7 @@ public class AIMovement : MonoBehaviour {
         Vector3 dir = target.position - transform.position;
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
-        if (Vector3.Distance(transform.position, target.position) <= 0.1f)
+        if (Vector3.Distance(transform.position, target.position) <= 0.2f)
         {
             GetNextWaypoint();
         }
